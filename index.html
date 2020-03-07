@@ -7,20 +7,40 @@
 
   <body>
 
-    <div id=container>
-      <audio id="player" controls autoplay loop>
-        <source src="media/god.mp3" type="audio/mp3">
-      </audio>
+
+    <div id = slideshow>
+      <img id = "image" src = 'media/background.jfif'> 
+      <img  id = snow src="media/snow.gif">
 
 
-      <image id="img1" src="media/kaneki2.png"></image>
-      <image id="snow" src="media/snow.gif"></image>
+   </div>
+
+    <button onclick = 'start()' id = button>Start</button>
+    <button onclick= 'stop()'id = button2>Stop</button>
+
+    <audio controls src = 'media/god.mp3'></audio>
+
+  <div class="place">
+    <div class="l">
+      <img src="media/icon.svg" id= "ic">
+       <img src="media/icon.svg" id= "ic">
+        <img src="media/icon.svg" id= "ic">
+        <img src="media/icon.svg" id= "ic">
+        
     </div>
+  </div>
+
+  <div class = "wrapper">
+    <div class = "flame-wrapper">
+      <div class =  "flame red"></div>
+      <div class =  "flame orange"></div>
+      <div class = "flame gold"></div>
+      <div class = "flame white"></div>
+    </div>
+  </div>
 
 
 
-
-
-
+    <script type="text/javascript" src = 'javascript.js'></script>
   </body>
 </html>
